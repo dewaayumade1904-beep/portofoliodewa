@@ -747,7 +747,7 @@
         <p class="ct-script reveal">for reviewing my portfolio</p>
         <div class="ct-connect reveal">Let&rsquo;s Connect</div>
         <ul class="ct-list reveal">
-          <li class="ct-item"><span class="ct-icon"><svg viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3" y="7" width="26" height="18" rx="1.5"/><path d="M3 8l13 10L29 8M3 24l9-8M29 24l-9-8"/></svg></span><div><span class="ct-label">Email</span><a class="ct-link" href="mailto:dewaayumade19@gmail.com">dewaayumade19@gmail.com</a></div></li>
+          <li class="ct-item"><span class="ct-icon"><svg viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3" y="7" width="26" height="18" rx="1.5"/><path d="M3 8l13 10L29 8M3 24l9-8M29 24l-9-8"/></svg></span><div><span class="ct-label">Email</span><a class="ct-link" href="mailto:dewaayumade1904@gmail.com">dewaayumade1904@gmail.com</a></div></li>
           <li class="ct-item"><span class="ct-icon"><svg viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="2.4"><rect x="3" y="3" width="26" height="26" rx="8"/><circle cx="16" cy="16" r="6"/><circle cx="23.5" cy="8.5" r="1.4" fill="currentColor" stroke="none"/></svg></span><div><span class="ct-label">Instagram</span><a class="ct-link" href="https://www.instagram.com/dewayuu19" target="_blank" rel="noopener noreferrer">instagram.com/dewayuu19</a></div></li>
           <li class="ct-item"><span class="ct-icon"><svg viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M16 3a13 13 0 00-11 19.8L3 29l6.4-2A13 13 0 1016 3z"/><path d="M11.5 10c.5 4.5 4.5 9 9.5 10l1.5-2.2-3.3-1.6-1.3 1.2c-1.5-.7-3-2.2-3.700-3.800l1.200-1.200-1.500-3.200z" fill="currentColor" stroke="none"/></svg></span><div><span class="ct-label">WhatsApp</span><a class="ct-link" href="https://wa.me/6282220667903" target="_blank" rel="noopener noreferrer">wa.me/6282220667903</a></div></li>
         </ul>
@@ -756,67 +756,7 @@
     </section>
   </main>
 
-  <!-- PROJECT DOCUMENTATION MODAL (<dialog>) -->
-  <dialog class="project-modal" id="project-modal">
-    <div class="modal-dialog-content">
-      
-      <!-- Modal Header -->
-      <div class="modal-header">
-        <div>
-          <span class="modal-tag" id="modal-category">Kategori Proyek</span>
-          <h2 class="modal-title" id="modal-title">Judul Proyek</h2>
-        </div>
-        <button class="modal-close-btn" id="modal-close-btn" aria-label="Tutup Dialog">&times;</button>
-      </div>
 
-      <!-- Modal Image Banner -->
-      <div class="modal-banner">
-        <img id="modal-img" src="" alt="Pratinjau Proyek">
-      </div>
-
-      <!-- Modal Body Content -->
-      <div class="modal-body">
-        
-        <div class="doc-section">
-          <h3>📋 Gambaran Umum (Overview)</h3>
-          <p id="modal-overview">Deskripsi umum dari proyek ini.</p>
-        </div>
-
-        <div class="doc-section">
-          <h3>✨ Fitur Utama</h3>
-          <ul id="modal-features" class="feature-checklist">
-            <!-- Populated via JS -->
-          </ul>
-        </div>
-
-        <div class="doc-section">
-          <h3>💡 Tantangan & Solusi Teknis</h3>
-          <p id="modal-challenge">Bagaimana kendala teknis diselesaikan saat pembuatan proyek.</p>
-        </div>
-
-        <div class="doc-section">
-          <h3>🛠️ Teknologi yang Digunakan</h3>
-          <div id="modal-tech" class="tech-tags">
-            <!-- Populated via JS -->
-          </div>
-        </div>
-
-      </div>
-
-      <!-- Modal Footer -->
-      <div class="modal-footer">
-        <a href="#proyek" class="btn btn-pill-outline" id="modal-repo-btn" target="_blank" rel="noopener noreferrer">
-          <span>Lihat Kode (GitHub)</span>
-        </a>
-        <a href="#proyek" class="btn btn-light" id="modal-live-btn" target="_blank" rel="noopener noreferrer">
-          <span>Buka Demo Langsung ↗</span>
-        </a>
-      </div>
-
-    </div>
-  </dialog>
-
-  <!-- Main JavaScript File -->
   <!-- ====== LATAR BELUDRU MAROON (Perkenalan, Akademik, Pengalaman, Organisasi, Proyek) ====== -->
   <style>
     section#introduction,section#pendidikan,section#pengalaman,section#organisasi,section#proyek{
@@ -836,7 +776,7 @@
       }
     }
   </style>
-  <!-- ====== TENTANG SAYA: bintang di samping kanan judul ====== -->
+  <!-- ====== PENYESUAIAN LAYOUT: Beranda, Pengalaman & Organisasi, Tentang Saya ====== -->
   <style>
     section#introduction .intro-dash{border-top-color:transparent}
     @media (min-width:769px){
@@ -945,6 +885,7 @@
     targets.forEach(function(el){ io.observe(el); });
   })();
   </script>
+  <!-- JavaScript utama: header, menu hamburger, animasi scroll -->
   <script src="script.js"></script>
 </body>
 </html>
